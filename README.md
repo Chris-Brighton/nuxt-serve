@@ -19,7 +19,16 @@ Add the following scripts to you package.json for access to the file helper scri
 }
 ```
 
-### Init
+### Config
+
+Update your nuxt.config.js
+
+```
+serverMiddleware: ['~/server/index.js'],
+plugins: ['~/plugins/queryString.js']
+```
+
+## Init
 
 After adding the scripts run the init command to add a basic project template
 
