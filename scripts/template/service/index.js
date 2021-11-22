@@ -12,7 +12,7 @@ const model = (name) => {
   const sequelize = app.get('sequelize')
   const DataTypes = app.get('DataTypes')
   const ${name.js} = sequelize.define(
-    '${name.db}'',
+    '${name.db}',
     {
       id: {
         type: DataTypes.INTEGER,
