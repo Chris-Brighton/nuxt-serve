@@ -14,8 +14,8 @@ Add the following scripts to you package.json for access to the file helper scri
 
 ```
 "scripts" : {
-  "init-nuxt-serve": "node ./node_modules/nuxt-serve/script/init.js",
-  "add-service": "node ./node_modules/nuxt-serve/script/service.js"
+  "init-nuxt-serve": "node ./node_modules/nuxt-serve/scripts/init.js",
+  "add-service": "node ./node_modules/nuxt-serve/scripts/service.js"
 }
 ```
 
