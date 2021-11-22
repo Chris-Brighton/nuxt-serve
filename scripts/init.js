@@ -14,7 +14,20 @@ function copyDirectory(source, destination) {
   })
 }
 
+function checkPath(path) {
+  return fs.existsSync(path)
+}
+
+function makeDir(path) {
+  if (!checkPath(path)) {
+    try {
+      fs.mkdirSync(path)
+    } catch (ex) {}
+  }
+}
+
 copyDirectory(
   process.env.PWD + '/node_modules/nuxt-serve/scripts/template/init',
   process.env.PWD
 )
+makeDir(process.env.PWD + '/static/uploads')
