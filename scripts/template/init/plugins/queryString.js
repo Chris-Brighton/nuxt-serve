@@ -2,7 +2,7 @@ function queryString(query) {
   const string = []
   Object.keys(query).forEach((key) => {
     string.push(
-      `key=${
+      `${key}=${
         typeof query[key] === 'string' ? query[key] : JSON.stringify(query[key])
       }`
     )

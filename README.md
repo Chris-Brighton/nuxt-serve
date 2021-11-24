@@ -25,7 +25,13 @@ Update your nuxt.config.js
 
 ```
 serverMiddleware: ['~/server/index.js'],
-plugins: ['~/plugins/queryString.js']
+watch: ['server'],
+plugins: [
+  '~/plugins/queryString.js',
+  '~/plugins/capitalize.js',
+  '~/plugins/groupBy.js',
+  '~/plugins/service.js',
+],
 ```
 
 ## Init
