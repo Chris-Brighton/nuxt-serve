@@ -1,9 +1,9 @@
-const NuxtServe = require('./lib/NuxtServe')
+const NuxtLynx = require('./lib/NuxtLynx')
 const Service = require('./lib/service/Service')
-const UploadService = require('./lib/service/UploadService')
+// const UploadService = require('./lib/service/UploadService')
 
 module.exports = {
-  NuxtServe,
+  NuxtLynx,
   Service,
-  UploadService,
+  // UploadService,
 }
