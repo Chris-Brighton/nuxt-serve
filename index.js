@@ -1,4 +1,4 @@
-const NuxtLynx = require('./lib/NuxtLynx')
+const NuxtLynx = require('./lib/app/NuxtLynx')
 const Service = require('./lib/service/Service')
 // const UploadService = require('./lib/service/UploadService')
 
