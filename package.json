@@ -15,7 +15,6 @@
     "fs": "0.0.1-security",
     "lodash": "^4.17.21",
     "path": "^0.12.7",
-    "sequelize-handlers": "git+https://github.com/Chris-Brighton/sequelize-handlers.git",
     "winston": "^3.3.3"
   },
   "devDependencies": {
